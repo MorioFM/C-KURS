@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/Drivers/">
+    <Project Path="Drivers/MariaDB/MariaDB.csproj" />
+  </Folder>
+  <Project Path="API/API.csproj" />
+  <Project Path="Classes/Classes.csproj" />
+  <Project Path="Common/Common.csproj" />
+</Solution>
