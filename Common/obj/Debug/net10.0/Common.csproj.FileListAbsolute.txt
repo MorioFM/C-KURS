@@ -9,3 +9,4 @@ C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\Commo
 C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\refint\Common.dll
 C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\Common.pdb
 C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\ref\Common.dll
+C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\Common.sourcelink.json
