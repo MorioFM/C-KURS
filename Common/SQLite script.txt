@@ -1,0 +1,135 @@
+-- Включение поддержки внешних ключей в SQLite
+PRAGMA foreign_keys = ON;
+
+-- =====================================================================
+-- 1. Таблица: Clients (Клиенты)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS Clients (
+    ClientID INTEGER PRIMARY KEY AUTOINCREMENT,
+    FullName TEXT NOT NULL,
+    PhoneNumber TEXT,
+    Adress TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_clients_fullname ON Clients (FullName);
+CREATE INDEX IF NOT EXISTS idx_clients_phonenumber ON Clients (PhoneNumber);
+
+-- =====================================================================
+-- 2. Таблица: StudyGroups (Учебные группы)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS StudyGroups (
+    GroupID INTEGER PRIMARY KEY AUTOINCREMENT,
+    GroupName TEXT NOT NULL UNIQUE
+);
+
+CREATE INDEX IF NOT EXISTS idx_studygroups_name ON StudyGroups (GroupName);
+
+-- =====================================================================
+-- 3. Таблица: GroupMembers (Члены учебных групп, связь M:N)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS GroupMembers (
+    GroupMembersID INTEGER PRIMARY KEY AUTOINCREMENT,
+    GroupID INTEGER NOT NULL,
+    ClientID INTEGER NOT NULL,
+    FOREIGN KEY (GroupID) REFERENCES StudyGroups (GroupID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (ClientID) REFERENCES Clients (ClientID) ON DELETE CASCADE ON UPDATE CASCADE,
+    UNIQUE (GroupID, ClientID)
+);
+
+CREATE INDEX IF NOT EXISTS idx_groupmembers_groupid ON GroupMembers (GroupID);
+CREATE INDEX IF NOT EXISTS idx_groupmembers_clientid ON GroupMembers (ClientID);
+
+-- =====================================================================
+-- 4. Таблица: ClassTypes (Типы занятий)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS ClassTypes (
+    ClassTypesID INTEGER PRIMARY KEY AUTOINCREMENT,
+    ClassName TEXT NOT NULL UNIQUE
+);
+
+CREATE INDEX IF NOT EXISTS idx_classtypes_name ON ClassTypes (ClassName);
+
+-- =====================================================================
+-- 5. Таблица: Rooms (Залы/помещения)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS Rooms (
+    RoomID INTEGER PRIMARY KEY AUTOINCREMENT,
+    RoomName TEXT NOT NULL UNIQUE,
+    RoomType TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_rooms_type ON Rooms (RoomType);
+
+-- =====================================================================
+-- 6. Таблица: RoomClassCompatibility (Совместимость залов и занятий, связь M:N)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS RoomClassCompatibility (
+    RoomClassCompatibilityID INTEGER PRIMARY KEY AUTOINCREMENT,
+    RoomID INTEGER NOT NULL,
+    ClassTypesID INTEGER NOT NULL,
+    FOREIGN KEY (RoomID) REFERENCES Rooms (RoomID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (ClassTypesID) REFERENCES ClassTypes (ClassTypesID) ON DELETE CASCADE ON UPDATE CASCADE,
+    UNIQUE (RoomID, ClassTypesID)
+);
+
+CREATE INDEX IF NOT EXISTS idx_roomclass_roomid ON RoomClassCompatibility (RoomID);
+CREATE INDEX IF NOT EXISTS idx_roomclass_classtypesid ON RoomClassCompatibility (ClassTypesID);
+
+-- =====================================================================
+-- 7. Таблица: Trainers (Тренеры)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS Trainers (
+    TrainerID INTEGER PRIMARY KEY AUTOINCREMENT,
+    FullName TEXT NOT NULL,
+    PhoneNumber TEXT NOT NULL UNIQUE,
+    PassportData TEXT NOT NULL UNIQUE,
+    DateBirth TEXT NOT NULL
+);
+
+CREATE INDEX IF NOT EXISTS idx_trainers_fullname ON Trainers (FullName);
+CREATE INDEX IF NOT EXISTS idx_trainers_phonenumber ON Trainers (PhoneNumber);
+CREATE INDEX IF NOT EXISTS idx_trainers_passport ON Trainers (PassportData);
+
+-- =====================================================================
+-- 8. Таблица: TrainerSpecialities (Специализации тренеров, связь M:N)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS TrainerSpecialities (
+    TrainerSpecialitiesID INTEGER PRIMARY KEY AUTOINCREMENT,
+    TrainerID INTEGER NOT NULL,
+    ClassTypesID INTEGER NOT NULL,
+    FOREIGN KEY (TrainerID) REFERENCES Trainers (TrainerID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (ClassTypesID) REFERENCES ClassTypes (ClassTypesID) ON DELETE CASCADE ON UPDATE CASCADE,
+    UNIQUE (TrainerID, ClassTypesID)
+);
+
+CREATE INDEX IF NOT EXISTS idx_trainerspec_trainerid ON TrainerSpecialities (TrainerID);
+CREATE INDEX IF NOT EXISTS idx_trainerspec_classtypesid ON TrainerSpecialities (ClassTypesID);
+
+-- =====================================================================
+-- 9. Таблица: Schedule (Расписание занятий)
+-- =====================================================================
+CREATE TABLE IF NOT EXISTS Schedule (
+    ScheduleID INTEGER PRIMARY KEY AUTOINCREMENT,
+    Day TEXT NOT NULL,
+    TimeSlot TEXT NOT NULL,
+    RoomID INTEGER NOT NULL,
+    GroupID INTEGER NOT NULL,
+    TrainerID INTEGER NOT NULL,
+    ClassTypesID INTEGER NOT NULL,
+    FOREIGN KEY (RoomID) REFERENCES Rooms (RoomID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (GroupID) REFERENCES StudyGroups (GroupID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (TrainerID) REFERENCES Trainers (TrainerID) ON DELETE CASCADE ON UPDATE CASCADE,
+    FOREIGN KEY (ClassTypesID) REFERENCES ClassTypes (ClassTypesID) ON DELETE CASCADE ON UPDATE CASCADE
+);
+
+-- Составные индексы для быстрого поиска и проверки коллизий
+CREATE INDEX IF NOT EXISTS idx_schedule_trainer_slot ON Schedule (Day, TimeSlot, TrainerID);
+CREATE INDEX IF NOT EXISTS idx_schedule_group_slot ON Schedule (Day, TimeSlot, GroupID);
+CREATE INDEX IF NOT EXISTS idx_schedule_room_slot ON Schedule (Day, TimeSlot, RoomID);
+
+-- Дополнительные индексы для выборок по внешним ключам и датам
+CREATE INDEX IF NOT EXISTS idx_schedule_day ON Schedule (Day);
+CREATE INDEX IF NOT EXISTS idx_schedule_roomid ON Schedule (RoomID);
+CREATE INDEX IF NOT EXISTS idx_schedule_groupid ON Schedule (GroupID);
+CREATE INDEX IF NOT EXISTS idx_schedule_trainerid ON Schedule (TrainerID);
+CREATE INDEX IF NOT EXISTS idx_schedule_classtypesid ON Schedule (ClassTypesID);

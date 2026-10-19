@@ -4,60 +4,36 @@ namespace MyAPP.Common.DB.Entity;
 
 public class Client
 {
-    private string firstName = string.Empty;
-    // Имя: только буквы (рус/англ) и дефис, от 2 до 50 символов
-    private const string firstNamePattern = @"^[А-Яа-яЁёA-Za-z\-]{2,50}$";
-
-    private string lastName = string.Empty;
-    // Фамилия: только буквы (рус/англ), дефис и возможные пробелы, от 2 до 50 символов
-    private const string lastNamePattern = @"^[А-Яа-яЁёA-Za-z\s\-]{2,50}$";
+    private string fullName = string.Empty;
+    // ФИО клиента: буквы (рус/англ), дефис, точка и пробелы, от 2 до 100 символов
+    private const string fullNamePattern = @"^[А-Яа-яЁёA-Za-z\s.\-]{2,100}$";
 
     private string? phoneNumber = null;
     // Телефон: плюс, цифры, скобки, пробелы и тире (от 7 до 20 символов)
     private const string phoneNumberPattern = @"^\+?[0-9\s\-\(\)]{7,20}$";
 
     private string adress = string.Empty;
-    // Адрес: буквы, цифры, знаки препинания (точка, запятая, слэш, дефис, знак номера), от 5 до 150 символов
-    private const string adressPattern = @"^[А-Яа-яЁёA-Za-z0-9\s.,\-\/#№]{5,150}$";
+    // Адрес: буквы, цифры, знаки препинания (точка, запятая, слэш, дефис, знак номера), от 5 до 100 символов
+    private const string adressPattern = @"^[А-Яа-яЁёA-Za-z0-9\s.,\-\/#№]{5,100}$";
 
     public int ClientID { get; set; }
 
-    public string FirstName
+    public string FullName
     {
         get
         {
-            return firstName;
+            return fullName;
         }
         set
         {
-            Regex regex = new Regex(firstNamePattern);
+            Regex regex = new Regex(fullNamePattern);
             if (regex.IsMatch(value))
             {
-                firstName = value;
+                fullName = value;
             }
             else
             {
-                throw new ArgumentException("Некорректное имя! Допустимы только буквы и дефис от 2 до 50 символов.");
-            }
-        }
-    }
-
-    public string LastName
-    {
-        get
-        {
-            return lastName;
-        }
-        set
-        {
-            Regex regex = new Regex(lastNamePattern);
-            if (regex.IsMatch(value))
-            {
-                lastName = value;
-            }
-            else
-            {
-                throw new ArgumentException("Некорректная фамилия! Допустимы только буквы, пробелы и дефис от 2 до 50 символов.");
+                throw new ArgumentException("Некорректное ФИО клиента! Допустимы буквы, пробелы, дефисы и точки от 2 до 100 символов.");
             }
         }
     }
@@ -105,7 +81,7 @@ public class Client
             }
             else
             {
-                throw new ArgumentException("Некорректный адрес! Длина должна быть от 5 до 150 символов.");
+                throw new ArgumentException("Некорректный адрес! Длина должна быть от 5 до 100 символов.");
             }
         }
     }

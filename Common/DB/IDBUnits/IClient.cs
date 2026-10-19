@@ -5,8 +5,7 @@ namespace MyAPP.Common.DB.IDBUnits;
 public interface IClient
 {
     int ClientID { get; set; }
-    string FirstName { get; set; }
-    string LastName { get; set; }
+    string FullName { get; set; }
     string? PhoneNumber { get; set; }
     string Adress { get; set; }
 

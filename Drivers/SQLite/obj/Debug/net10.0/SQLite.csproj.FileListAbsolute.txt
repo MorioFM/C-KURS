@@ -1,0 +1,6 @@
+C:\Users\Пользователь\Desktop\С#kurs\Drivers\SQLite\obj\Debug\net10.0\SQLite.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\С#kurs\Drivers\SQLite\obj\Debug\net10.0\SQLite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\С#kurs\Drivers\SQLite\obj\Debug\net10.0\SQLite.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\С#kurs\Drivers\SQLite\obj\Debug\net10.0\SQLite.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\С#kurs\Drivers\SQLite\obj\Debug\net10.0\SQLite.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\С#kurs\Drivers\SQLite\obj\Debug\net10.0\SQLite.sourcelink.json
