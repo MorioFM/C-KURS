@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\SQLite\\SQLite.csproj": {}
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\SQLite\\SQLite.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj": {
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,9 +25,8 @@
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Пользователь\\.nuget\\packages": {}
         },
         "frameworks": {
           "net10.0": {
@@ -346,14 +345,14 @@
         }
       }
     },
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\SQLite\\SQLite.csproj": {
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\SQLite\\SQLite.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\SQLite\\SQLite.csproj",
+        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\SQLite\\SQLite.csproj",
         "projectName": "SQLite",
-        "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\SQLite\\SQLite.csproj",
+        "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\SQLite\\SQLite.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\SQLite\\obj\\",
+        "outputPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\SQLite\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,17 +366,16 @@
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Пользователь\\.nuget\\packages": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj"
+              "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj"
               }
             }
           }

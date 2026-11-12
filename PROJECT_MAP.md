@@ -65,9 +65,24 @@ graph TD
 │           └── ISсhedule.cs                # Контракт операций для расписания
 │
 ├── Drivers/                                # [Слой драйверов и работы с СУБД]
-│   └── MariaDB/
-│       ├── MariaDB.csproj
-│       └── Database.cs                     # Реализация работы с MariaDB/MySQL
+│   ├── MariaDB/
+│   │   ├── MariaDB.csproj
+│   │   └── Database.cs                     # Реализация работы с MariaDB/MySQL
+│   └── SQLite/
+│       ├── SQLite.csproj
+│       ├── Database.cs                     # Реализация работы с SQLite
+│       └── Initialization/                 # C#-классы декомпозиции инициализации таблиц
+│           ├── ITableInitializer.cs        # Интерфейс инициализатора таблицы
+│           ├── DatabaseInitializer.cs      # Координатор порядка инициализации таблиц
+│           ├── ScheduleInitializer.cs      # [FK] Таблица расписания
+│           ├── GroupMembersInitializer.cs  # [FK] Таблица состава групп
+│           ├── TrainerSpecialitiesInitializer.cs # [FK] Квалификации тренеров
+│           ├── RoomClassCompatibilityInitializer.cs # [FK] Совместимость залов
+│           ├── ClientsInitializer.cs       # Базовая: Клиенты
+│           ├── StudyGroupsInitializer.cs   # Базовая: Учебные группы
+│           ├── TrainersInitializer.cs      # Базовая: Тренеры
+│           ├── ClassTypesInitializer.cs    # Базовая: Типы занятий
+│           └── RoomsInitializer.cs         # Базовая: Залы
 │
 └── API/                                    # [Слой веб-сервиса / REST API]
     ├── API.csproj

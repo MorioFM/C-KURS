@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "WboTk/ONHrs=",
+  "dgSpecHash": "fC+SvOnVWEQ=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\MariaDB\\MariaDB.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\MariaDB.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "C:\\Users\\Пользователь\\.nuget\\packages\\mysqlconnector\\2.6.2\\mysqlconnector.2.6.2.nupkg.sha512"
+  ],
   "logs": []
 }

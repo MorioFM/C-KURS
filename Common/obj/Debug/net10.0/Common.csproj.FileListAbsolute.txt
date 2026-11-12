@@ -10,3 +10,25 @@ C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\refin
 C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\Common.pdb
 C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\ref\Common.dll
 C:\Users\Пользователь\Desktop\С#kurs\Common\obj\Debug\net10.0\Common.sourcelink.json
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\bin\Debug\net10.0\Common.deps.json
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\bin\Debug\net10.0\Common.dll
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\bin\Debug\net10.0\Common.pdb
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.AssemblyInfoInputs.cache
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.AssemblyInfo.cs
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.dll
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\refint\Common.dll
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.pdb
+C:\Users\zsa-6\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\ref\Common.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\bin\Debug\net10.0\Common.deps.json
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\bin\Debug\net10.0\Common.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\bin\Debug\net10.0\Common.pdb
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\refint\Common.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\Common.pdb
+C:\Users\Пользователь\Desktop\C-KURS-main — копия\Common\obj\Debug\net10.0\ref\Common.dll

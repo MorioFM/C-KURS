@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YHOJjpCEZAM=",
+  "dgSpecHash": "lTvk6WfMrhE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\SQLite\\SQLite.csproj",
+  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\SQLite\\SQLite.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.data.sqlite\\10.0.13\\microsoft.data.sqlite.10.0.13.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.data.sqlite.core\\10.0.13\\microsoft.data.sqlite.core.10.0.13.nupkg.sha512",

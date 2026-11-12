@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\MariaDB\\MariaDB.csproj": {}
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\MariaDB.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj": {
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,9 +25,8 @@
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Пользователь\\.nuget\\packages": {}
         },
         "frameworks": {
           "net10.0": {
@@ -346,14 +345,14 @@
         }
       }
     },
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\MariaDB\\MariaDB.csproj": {
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\MariaDB.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\MariaDB\\MariaDB.csproj",
+        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\MariaDB.csproj",
         "projectName": "MariaDB",
-        "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\MariaDB\\MariaDB.csproj",
+        "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\MariaDB.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Drivers\\MariaDB\\obj\\",
+        "outputPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -367,17 +366,16 @@
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Пользователь\\.nuget\\packages": {}
         },
         "frameworks": {
           "net10.0": {
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj"
+              "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj"
               }
             }
           }
@@ -398,6 +396,12 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
+          "dependencies": {
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.6.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

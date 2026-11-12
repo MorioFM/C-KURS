@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj": {}
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj": {
+    "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\Common.csproj",
+        "projectPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Пользователь\\Desktop\\С#kurs\\Common\\obj\\",
+        "outputPath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,9 +25,8 @@
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\Пользователь\\.nuget\\packages": {}
         },
         "frameworks": {
           "net10.0": {
