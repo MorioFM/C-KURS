@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fC+SvOnVWEQ=",
+  "dgSpecHash": "n9+3g20VuQE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Drivers\\MariaDB\\MariaDB.csproj",
+  "projectFilePath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Drivers\\MariaDB\\MariaDB.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.2\\microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",

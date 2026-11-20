@@ -34,11 +34,10 @@ public static class DatabaseInitializer
         new TrainerSpecialitiesInitializer(),
         new RoomClassCompatibilityInitializer(),
         new ScheduleInitializer()
+        
     }.ToDictionary(i => i.Id);
 
-    /// <summary>
     /// Выполнить декомпозированную инициализацию всех таблиц в переданном подключении
-    /// </summary>
     /// <param name="connection">Открытое подключение к базе данных MariaDB</param>
     public static void Initialize(MySqlConnection connection)
     {
@@ -56,9 +55,7 @@ public static class DatabaseInitializer
         }
     }
 
-    /// <summary>
     /// Инициализировать базу данных по строке подключения
-    /// </summary>
     /// <param name="connectionString">Строка подключения MariaDB (например, "Server=localhost;Database=fitness;User ID=root;Password=...")</param>
     public static void Initialize(string connectionString)
     {

@@ -11,7 +11,6 @@ public class TrainersInitializer : ITableInitializer
 {
     public TableId Id => TableId.Trainers;
     public string TableName => "Trainers";
-
     public void Initialize(SqliteConnection connection)
     {
         const string sql = """

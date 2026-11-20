@@ -34,3 +34,19 @@ C:\Users\Пользователь\Desktop\C-KURS-main — копия\Drivers\SQL
 C:\Users\Пользователь\Desktop\C-KURS-main — копия\Drivers\SQLite\bin\Debug\net10.0\Common.pdb
 C:\Users\Пользователь\Desktop\C-KURS-main — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.csproj.Up2Date
 C:\Users\Пользователь\Desktop\C-KURS-main — копия\Drivers\SQLite\obj\Debug\net10.0\ref\SQLite.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\bin\Debug\net10.0\SQLite.deps.json
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\bin\Debug\net10.0\SQLite.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\bin\Debug\net10.0\SQLite.pdb
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\bin\Debug\net10.0\Common.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\bin\Debug\net10.0\Common.pdb
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.sourcelink.json
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.csproj.Up2Date
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\refint\SQLite.dll
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\SQLite.pdb
+C:\Users\Пользователь\Desktop\C-KURS-main — копия без иниц — копия\Drivers\SQLite\obj\Debug\net10.0\ref\SQLite.dll

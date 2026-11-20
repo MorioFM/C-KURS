@@ -2,7 +2,7 @@ using MyAPP.Common.DB.IDBUnits;
 
 namespace MyAPP.Common;
 
-public interface IDatabase
+public interface IDatabase : IDisposable
 {
     IClassType ClassTypes { get; }
     IClient Clients { get; }
@@ -13,4 +13,9 @@ public interface IDatabase
     ISсhedule Schedules { get; }
     ITrainer Trainers { get; }
     ITrainerSpeciality TrainerSpecialities { get; }
+
+    /// <summary>
+    /// Инициализация схемы и таблиц базы данных
+    /// </summary>
+    void Initialize();
 }

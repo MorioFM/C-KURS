@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\API\\API.csproj": {}
+    "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\API\\API.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\API\\API.csproj": {
+    "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\API\\API.csproj",
+        "projectPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\API\\API.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\API\\obj\\",
+        "outputPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -34,8 +34,8 @@
             "framework": "net10.0",
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
-                "projectPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj"
+              "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Common\\Common.csproj": {
+                "projectPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Common\\Common.csproj"
               }
             }
           }
@@ -503,14 +503,14 @@
         }
       }
     },
-    "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj": {
+    "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
+        "projectUniqueName": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\Common.csproj",
+        "projectPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Common\\Common.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия\\Common\\obj\\",
+        "outputPath": "c:\\Users\\Пользователь\\Desktop\\C-KURS-main — копия без иниц — копия\\Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
